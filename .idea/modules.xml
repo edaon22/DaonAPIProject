@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/DaonAPIProject.iml" filepath="$PROJECT_DIR$/.idea/DaonAPIProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DaonAPIProject.iml" filepath="$PROJECT_DIR$/DaonAPIProject.iml" />
     </modules>
   </component>
 </project>
