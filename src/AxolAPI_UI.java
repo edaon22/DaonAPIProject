@@ -9,6 +9,7 @@ public class AxolAPI_UI {
         String mainResponse = null;
 
         while (!validResponse){
+            System.out.println("Welcome to the AxolAPI Tool!");
             System.out.println("Would you like an image with your fact?");
             System.out.println("1) Yes");
             System.out.println("2) No");
