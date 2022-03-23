@@ -66,6 +66,7 @@ public class AxolAPI_UI {
             System.out.println("Would you like run again?");
             System.out.println("1) Yes");
             System.out.println("2) No");
+
             input.nextLine();
             useAgainResponse = input.nextLine().toUpperCase();
 

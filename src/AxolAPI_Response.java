@@ -1,5 +1,4 @@
 import java.net.URL;
-import java.util.Map;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.*;
 import java.io.*;
