@@ -21,7 +21,7 @@ public class AxolAPi {
                 if (dataRequest.getData()){
                     for (int i = 0; i < numFacts; i++){
                         dataRequest.getData();
-                        System.out.println((i+1) + ") " + dataRequest.getFact());
+                        System.out.println((i+1) + ". " + dataRequest.getFact());
                     }
                     System.out.println("Image URL: " + dataRequest.getImageURL());
                 }
@@ -43,7 +43,7 @@ public class AxolAPi {
                 if (dataRequest.getData()){
                     for (int i = 0; i < numFacts; i++){
                         dataRequest.getData();
-                        System.out.println((i+1) + ") " + dataRequest.getFact());
+                        System.out.println((i+1) + ". " + dataRequest.getFact());
                     }
                 }
                 String useAgainResponse = ui.useAgainPrompt();
