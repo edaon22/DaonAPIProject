@@ -1,7 +1,7 @@
 public class AxolAPi {
 
     private static final String APIURL = "https://axoltlapi.herokuapp.com/";
-    public static void main(String[] args) throws Exception{
+    public static void main(String[] args){
 
         AxolAPI_UI ui = new AxolAPI_UI();
 
@@ -10,7 +10,7 @@ public class AxolAPi {
 
         while (keepUsing) {
             String mainResponse = ui.mainMenuPrompt();
-            if (mainResponse.equals("1")){ //yes image
+            if (mainResponse.equals("1")){ //yes image          //use switch statement?
                 int numFacts = ui.numFactsPrompt();
                 if (numFacts == 1){
                     System.out.println("Here is your image and fact:");

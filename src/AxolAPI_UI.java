@@ -29,21 +29,27 @@ public class AxolAPI_UI {
 
     public int numFactsPrompt(){
         boolean validResponse = false;
-        String numFactsResponse = null;
+        int numFactsResponse;
         int i = -1;
 
         System.out.println("How many facts would you like?");
         System.out.println("(Enter a number from 1-5)");
 
         while (!validResponse){
-            numFactsResponse = input.nextLine().toUpperCase();
-            i = Integer.parseInt(numFactsResponse);
-
-            if ( i == 1 || i == 2 || i == 3 || i == 4 || i == 5){
-                validResponse = true;
+            try{
+                numFactsResponse = input.nextInt();
+                i = numFactsResponse;
+                if ( i == 1 || i == 2 || i == 3 || i == 4 || i == 5){
+                    validResponse = true;
+                }
+                else{
+                    System.out.println("Please input a number from 1 to 5");
+                }
             }
-            else{
-                System.out.println("Please input an number from 1 to 5");
+            catch(Exception e){
+                input.nextLine();
+                System.out.println("Please enter integers only.");
+
             }
         }
         return i;

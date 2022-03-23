@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="6291c9e0-8d79-460d-8e49-56742ea3f9b8" name="Changes" comment="3/23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AxolAPI_Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AxolAPI_Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AxolAPI_UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AxolAPI_UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AxolAPi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AxolAPi.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,5 +87,21 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3/23" />
     <option name="LAST_COMMIT_MESSAGE" value="3/23" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AxolAPi.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/AxolAPI_UI.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

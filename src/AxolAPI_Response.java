@@ -17,7 +17,6 @@ public class AxolAPI_Response {
     public boolean getData() {
     try {
         URL url = new URL(APIURL);
-        //System.out.println(url);
         BufferedReader in = new BufferedReader(
                 new InputStreamReader(url.openStream()));
 
