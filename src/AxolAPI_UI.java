@@ -7,9 +7,10 @@ public class AxolAPI_UI {
         boolean validResponse = false;
         String mainResponse = null;
 
+        System.out.println("Welcome to the AxolAPI Tool, where you can get a facts and images of axolotls!");
+        System.out.println("Would you like an image with your fact?");
+
         while (!validResponse){
-            System.out.println("Welcome to the AxolAPI Tool!");
-            System.out.println("Would you like an image with your fact?");
             System.out.println("1) Yes");
             System.out.println("2) No");
             System.out.println("3) Quit");
@@ -25,6 +26,30 @@ public class AxolAPI_UI {
         }
         return mainResponse;
     }
+
+    public int numFactsPrompt(){
+        boolean validResponse = false;
+        String numFactsResponse = null;
+        int i = -1;
+
+        System.out.println("How many facts would you like?");
+        System.out.println("(Enter a number from 1-5)");
+
+        while (!validResponse){
+            numFactsResponse = input.nextLine().toUpperCase();
+            i = Integer.parseInt(numFactsResponse);
+
+            if ( i == 1 || i == 2 || i == 3 || i == 4 || i == 5){
+                validResponse = true;
+            }
+            else{
+                System.out.println("Please input an number from 1 to 5");
+            }
+        }
+        return i;
+    }
+
+
 
     public String useAgainPrompt(){
         boolean validResponse = false;
