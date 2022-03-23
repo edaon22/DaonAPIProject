@@ -1,5 +1,4 @@
 // AxolAPI User Interface
-import java.util.Locale;
 import java.util.Scanner;
 public class AxolAPI_UI {
     private Scanner input = new Scanner(System.in);
@@ -32,6 +31,7 @@ public class AxolAPI_UI {
         String useAgainResponse = null;
 
         while (!validResponse){
+            System.out.println();
             System.out.println("Would you like run again?");
             System.out.println("1) Yes");
             System.out.println("2) No");
