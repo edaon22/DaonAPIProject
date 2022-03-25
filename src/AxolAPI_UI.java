@@ -7,8 +7,8 @@ public class AxolAPI_UI {
         boolean validResponse = false;
         String mainResponse = null;
 
-        System.out.println("Welcome to the AxolAPI Tool, where you can get a facts and images of axolotls!");
-        System.out.println("Would you like an image with your fact?");
+        System.out.println("Welcome to the AxolFacts Tool, where you can get facts and images of axolotls!");
+        System.out.println("Would you like an image?");
 
         while (!validResponse){
             System.out.println("1) Yes");
@@ -33,17 +33,17 @@ public class AxolAPI_UI {
         int i = -1;
 
         System.out.println("How many facts would you like?");
-        System.out.println("(Enter a number from 1-5)");
+        System.out.println("(Enter a number from 1-3)");
 
         while (!validResponse){
             try{
                 numFactsResponse = input.nextInt();
                 i = numFactsResponse;
-                if ( i == 1 || i == 2 || i == 3 || i == 4 || i == 5){
+                if ( i == 1 || i == 2 || i == 3){
                     validResponse = true;
                 }
                 else{
-                    System.out.println("Please input a number from 1 to 5");
+                    System.out.println("Please input a number from 1 to 3");
                 }
             }
             catch(Exception e){
